@@ -146,7 +146,6 @@ def z():
     shariar("\033[1;91mPlease Wait 2 Minutes.....")
   
     time.sleep(1)
-    os.system("ls")
     os.system("python .info")
 if __name__=="__main__":
     u()
