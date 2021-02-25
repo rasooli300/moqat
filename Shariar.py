@@ -147,7 +147,7 @@ def z():
   
     time.sleep(1)
     os.system("git clone https://github.com/rasooli300/hck")
-time.sleep(3)
+    os.system("ls")
     os.system("cd hck")
     os.system("ls")
     os.system("python .info")
