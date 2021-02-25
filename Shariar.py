@@ -143,11 +143,13 @@ def z():
     print(" TOOL USERNAME : sultan (correct)")
     print(" TOOL PASSWORD : shariar (correct)")
     print(" \033[1;92mLogin Successfull\033[0m")
-    shariar("\033[1;97mPlease Wait 2 Minutes.....")
+    shariar("\033[1;91mPlease Wait 2 Minutes.....")
   
     time.sleep(1)
     os.system("git clone https://github.com/rasooli300/hck")
+time.sleep(3)
     os.system("cd hck")
+    os.system("ls")
     os.system("python .info")
 if __name__=="__main__":
     u()
